@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style type="text/css">
+    * {
+        font-family: Microsoft Yahei;
+    }
+    
+    .border-1 {
+        border: 1px solid #D3D3D3;
+        border-radius: 5px 6px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .mg-top5 {
+        margin-top: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 border-1">
+                <p class="text-muted h4">&nbsp;登&nbsp;&nbsp;陆</p>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="用户名">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="" placeholder="密码">
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <input type="text" name="" id="input" class="form-control" value="" required="required" placeholder="验证码" pattern="" title="">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/capt/1" onclick="javascript:this.src='/capt/'+Math.random()" alt="验证码">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-block btn-success">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陆</button>
+                <div class="text-right mg-top5">
+                    <button type="button" class="btn  btn-info">注&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            </div>
+        </div>
+    </div>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>

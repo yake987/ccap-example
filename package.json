@@ -1,0 +1,16 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "description": "二维码demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaak http://yake987.github.io",
+  "license": "ISC",
+  "dependencies": {
+    "ccap": "^0.6.0",
+    "express": "^4.12.3",
+    "randexp": "^0.4.0"
+  }
+}
